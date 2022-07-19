@@ -18,13 +18,23 @@
   As can be seen, three different data types are available (i.e., float, integer and string (categorical)). I used a column transformation to convert these columns into their corresponding numerical values. Note that, the data shown in the above tables are not all the columns in the data. For the sake of brevity, we did not show all the columns. 
   
 <h3> Feature Selection and Explanatory Data Analysis (EDA) </h3>
-<p>I do feature selection and EDA simultaneously because I think these two steps should be done together. For the categorical features, I did a F test in the scipy library. To do that, I first created a cross table using pandas. Then, I evaluate whether especific cateogries have influence on the outcomes. I do not show all the results for the sake of brevity. For example, I evaluated whether members from different genders (e.g., men and women) have an influence on our outcome. I first created a cross table:<br><br>
+<p>I do feature selection and EDA simultaneously because I think these two steps should be done together. For the categorical features, I did a F test in the scipy library. To do that, I first created a cross table using pandas. Then, I evaluate whether especific cateogries have influence on the outcomes. I do not show all the results for the sake of brevity. A summary of the results can be found as follows:
+<ol>  
+  <li> I evaluated whether members from different genders (e.g., men and women) have an influence on our outcome. I first created a cross table:<br><br>
 
 <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/Screenshot%202022-07-19%20150753.jpg'><br>
   
   Using this cross table, I did a F-test and the corresponding p-value obtained 0.0002, so the effect of  geder types on the output is significant. We can also obtain this conclusion based on the countplot below:<br><br>
  <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/download.png' width='400' height='300'><br>
-  As shwon, women are more likely to leave the bank compared to men customers.<br>
-  <p>I also did a F-test to determine whether level of education has important effects on the output. The <strong>p-value </strong> for this statistical test obtained <strong> 0.051 </strong> which is very <strong> close </strong> to the typical <strong> critical value of 0.05 </strong>. As a result, depending on the financial loss for the type one error or type two error, we can either maintain this feature or do not involve it for model predictions. For example, if the education level does not really influence the outcome, but we consider it for training a model, we only spend some computation time (i.e., <strong> the corresponding costs for type 1 error is negligible </strong>). However, if the education level, in reality, does influence the customer behaviour and we ignore it (i.e., <strong> type 2 error </strong>), the corresponding financial loss could be large (i.e., bank could save so much money by preventing the customers to leave). As a result,<strong> since the financial loss for type 2 error is less, I keep feature corresponding to the education level </strong>. </p>
+  As shwon, women are more likely to leave the bank compared to men customers.</li>
+  <li>I also did a F-test to determine whether level of education has important effects on the output. The <strong>p-value </strong> for this statistical test obtained <strong> 0.051 </strong> which is very <strong> close </strong> to the typical <strong> critical value of 0.05 </strong>. As a result, depending on the financial loss for the type one error or type two error, we can either maintain this feature or do not involve it for model predictions. For example, if the education level does not really influence the outcome, but we consider it for training a model, we only spend some computation time (i.e., <strong> the corresponding costs for type 1 error is negligible </strong>). However, if the education level, in reality, does influence the customer behaviour and we ignore it (i.e., <strong> type 2 error </strong>), the corresponding financial loss could be large (i.e., bank could save so much money by preventing the customers to leave). As a result,<strong> since the financial loss for type 2 error is less, I keep feature corresponding to the education level </strong>. </li>
+  <li> Effect of income category on the output is significant because the corresponding p-value is 0.025. However, the effect of Card type and martial status is negligible because the corresponding p-values are 0.52 and 0.11. For example, the normalized catplot:<br>
+    <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/Class_2.png'>
   
+  
+  
+  
+  
+  </li>
+  </ol> 
 </p>
