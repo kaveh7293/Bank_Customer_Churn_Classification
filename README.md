@@ -31,7 +31,7 @@
   <li> Effect of income category on the output is significant because the corresponding p-value is 0.025. However, the effect of Card type and martial status is negligible because the corresponding p-values are 0.52 and 0.11. For example, the normalized catplot:<br>
     <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/Class_2.png'><br>
    
-    As shown, there is not a signficant relationship between the customers with different credit cards and the corresponding outputs.
+   <p>As shown, there is not a signficant relationship between the customers with different credit cards and the corresponding outputs.</p>
    
   
   
