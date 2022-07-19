@@ -34,18 +34,18 @@
    <p>As shown, there is not a signficant relationship between the customers with different credit cards and the corresponding outputs.</p>
    <li> I also used a one-way ANOVA test to determine whether numeric features have a significant relationship with the output. The followin results were obtained using a for loop for all the columns containing numerical values:<br>
      <ul>
-       <li>('effect of', 'Customer_Age', 'is significant?', 'No')</li>
-       <li> ('effect of', 'Dependent_count', 'is significant?', 'No')</li>
-       <li>('effect of', 'Months_on_book', 'is significant?', 'No')</li>
-       <li>('effect of', 'Total_Relationship_Count', 'is significant?', 'Yes')</li>
-       <li> ('effect of', 'Months_Inactive_12_mon', 'is significant?', 'Yes')</li>
-       <li>('effect of', 'Contacts_Count_12_mon', 'is significant?', 'Yes')</li>
-       <li>('effect of', 'Total_Trans_Ct', 'is significant?', 'Yes')</li>
-       <li>('effect of', 'Credit_Limit', 'is significant?', 'Yes')</li>
-       <li>('effect of', 'Total_Revolving_Bal', 'is significant?', 'Yes')</li>
-       <li>('effect of', 'Avg_Open_To_Buy', 'is significant?', 'No')</li>
-       <li>('effect of', 'Total_Amt_Chng_Q4_Q1', 'is significant?', 'Yes')</li>
-       <li>'effect of', 'Total_Trans_Amt', 'is significant?', 'Yes'</li></ul>
+       <li>Effect of <strong>Customer_Age </strong> is <strong> not significant</strong>.</li>
+       <li>Eeffect of  <strong>Dependent_count </strong>  is <strong>not significant</strong>.</li>
+       <li>Effect of <strong>Months_on_book </strong> is <strong> not significant </strong>.</li>
+       <li>Effect of <strong>Total_Relationship_Count </strong> is <strong> significant.</strong></li>
+       <li>Effect of <strong>Months_Inactive_12_mon </strong> is <strong> significant</strong>.</li>
+       <li>Effect of <strong>Contacts_Count_12_mon </strong> is <strong> significant</strong>.</li>
+       <li>Effect of <strong>Total_Trans_Ct </strong> is <strong> significant</strong>.</li>
+       <li>Effect of <strong>Credit_Limit </strong> is <strong> significant </strong>.</li>
+       <li>Effect of <strong>Total_Revolving_Bal</strong> is <strong> significant</strong>.</li>
+       <li>Effect of <strong>Avg_Open_To_Buy </strong> is <strong> not significant </strong>.</li>
+       <li>Effect of <strong>Total_Amt_Chng_Q4_Q1 </strong> is <strong>significant</strong>.</li>
+       <li>Effect of <strong>Total_Trans_Amt</strong>  is <strong> significant</strong>.</li></ul>
      </ol>
 
      
