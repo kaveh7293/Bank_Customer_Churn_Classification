@@ -60,3 +60,4 @@
 
 <h3> Model Selection and Training </h3>
 <p> In this step, I did a model selection based on cross-validation on the corresponding data set. I evaluated 5 different models (i.e., k-nearest-neighbors, decision tree, naive Bayes, support vector machine and decision tree). I used f1 for scoring because the imbalance nature of the data. Based on the corresponding results, decision tree is the best algorithm because of the highest score it had compared to other algorithms. In the next step, I used a randomized search method to find the best hyper parameter values for our random forest model. Finally, we did find out the corresponding model and then obtained the f1 score and accuracy for the test data. The <strong> f1 score </strong> and the <strong>  accuracy score </strong> for the test data were <strong> 0.958</strong>  and <strong> 0.959</strong> , respectively.</p>
+<p> The codes for this project can be found <a href=''>here <a>.
