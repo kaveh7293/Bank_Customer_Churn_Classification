@@ -32,7 +32,23 @@
     <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/Class_2.png'><br>
    
    <p>As shown, there is not a signficant relationship between the customers with different credit cards and the corresponding outputs.</p>
-   
+   <li> I also used a one-way ANOVA test to determine whether numeric features have a significant relationship with the output. The followin results were obtained using a for loop for all the columns containing numerical values:<br>
+     <ul>
+       <li>('effect of', 'Customer_Age', 'is significant?', 'No')</li>
+       <li> ('effect of', 'Dependent_count', 'is significant?', 'No')</li>
+       <li>('effect of', 'Months_on_book', 'is significant?', 'No')</li>
+       <li>('effect of', 'Total_Relationship_Count', 'is significant?', 'Yes')</li>
+       <li> ('effect of', 'Months_Inactive_12_mon', 'is significant?', 'Yes')</li>
+       <li>('effect of', 'Contacts_Count_12_mon', 'is significant?', 'Yes')</li>
+       <li>('effect of', 'Total_Trans_Ct', 'is significant?', 'Yes')</li>
+       <li>('effect of', 'Credit_Limit', 'is significant?', 'Yes')</li>
+       <li>('effect of', 'Total_Revolving_Bal', 'is significant?', 'Yes')</li>
+       <li>('effect of', 'Avg_Open_To_Buy', 'is significant?', 'No')</li>
+       <li>('effect of', 'Total_Amt_Chng_Q4_Q1', 'is significant?', 'Yes')</li>
+       <li>'effect of', 'Total_Trans_Amt', 'is significant?', 'Yes'</li></ul>
+     </ol>
+
+     
   
   
   
