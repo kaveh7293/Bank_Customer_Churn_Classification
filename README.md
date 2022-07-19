@@ -47,7 +47,7 @@
        <li>Effect of <strong>Total_Amt_Chng_Q4_Q1 </strong> is <strong>significant</strong>.</li>
        <li>Effect of <strong>Total_Trans_Amt</strong>  is <strong> significant</strong>.</li></ul>
      </ol>
-     <p> Note that, a critical value of 0.1 is considered because the financial loss corresponding to encountering with type 2 error is higher. The <strong> p-values </strong> for the features that have not been selected were <strong> 0.16 </strong>and <strong>0.97 </strong>.
+     <p> Note that, <strong> a critical value of 0.1 </strong> is considered because the financial loss corresponding to encountering with type 2 error is higher. The <strong> p-values </strong> for the features that have not been selected were <strong> 0.16 </strong>and <strong>0.97 </strong>.
 
      
   
