@@ -17,4 +17,8 @@
   <img src='https://github.com/kaveh7293/Bank-Churn-Customer-Prediction/blob/main/Screenshot%202022-07-11%20140723.png' width="850" height="200"><br>
   As can be seen, three different data types are available (i.e., float, integer and string (categorical)). I used a column transformation to convert these columns into their corresponding numerical values. Note that, the data shown in the above tables are not all the columns in the data. For the sake of brevity, we did not show all the columns. 
   
+<h3> Feature Selection and Explanatory Data Analysis (EDA) <h3>
+<p>I do feature selection and EDA simultaneously because I think these two steps should be done together. For the categorical features, I did a F test in the scipy library. To do that, I first created a cross table using pandas. Then, I evaluate whether especific cateogries have influence on the outcomes. I do not show all the results for the sake of brevity. For example, I evaluated whether members from different genders (e.g., men and women) have an influence on our outcome. I first created a cross table:<br>
+
+<img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/Screenshot%202022-07-19%20150753.jpg'>
 </p>
