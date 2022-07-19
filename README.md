@@ -23,6 +23,6 @@
 <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/Screenshot%202022-07-19%20150753.jpg'><br>
   
   Using this cross table, I did a F-test and the corresponding p-value obtained 0.0002, so the effect of feature gender on the output is significant. We can also see this conclusion based on the countplot below:<br>
- <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/download.png'><br>
+ <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/download.png' width='450' height='400'><br>
   
 </p>
