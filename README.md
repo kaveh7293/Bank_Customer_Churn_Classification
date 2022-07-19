@@ -22,7 +22,9 @@
 
 <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/Screenshot%202022-07-19%20150753.jpg'><br>
   
-  Using this cross table, I did a F-test and the corresponding p-value obtained 0.0002, so the effect of feature gender on the output is significant. We can also see this conclusion based on the countplot below:<br>
+  Using this cross table, I did a F-test and the corresponding p-value obtained 0.0002, so the effect of feature gender on the output is significant. We can also see this conclusion based on the countplot below:<br><br>
  <img src='https://github.com/kaveh7293/Bank_Customer_Churn_Classification/blob/main/download.png' width='400' height='300'><br>
+  As shwon, women are more likely to leave the bank compared to men customers.<br>
+  <p>I also did a F-test to determine whether level of education has important effects on the output. The <strong>p-value </strong> for this statistical test obtained <strong> 0.051 </strong> which is very <strong> close </strong> to the typical <strong> critical value of 0.05 </strong>. As a result, depending on the financial loss for the type one error or type two error, we can either maintain this feature or do not involve it for model predictions. For example, if the education level does not really influence the outcome, but we consider it for model prediction, we only spend a few computation time (i.e., <strong> the corresponding costs for type 1 error is negligible </strong>). However, if the education level, in reality, does influence the customer behaviour and we ignore it (i.e., <strong> type 2 error </strong>), the corresponding financial loss could be large (i.e., bank could save so much money by preventing the customers to leave). As a result,<strong> since the financial loss for type 2 error is less, I keep feature corresponding to the education level </strong>. </p>
   
 </p>
