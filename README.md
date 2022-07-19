@@ -34,8 +34,8 @@
    <p>As shown, there is not a signficant relationship between the customers with different credit cards and the corresponding outputs.</p>
    <li> I also used a one-way ANOVA test to determine whether numeric features have a significant relationship with the output. The followin results were obtained using a for loop for all the columns containing numerical values:<br>
      <ul>
-       <li>Effect of <strong>Customer_Age </strong> is <strong> not significant</strong>.</li>
-       <li>Eeffect of  <strong>Dependent_count </strong>  is <strong>not significant</strong>.</li>
+       <li>Effect of <strong>Customer_Age </strong> is <strong> significant</strong>.</li>
+       <li>Eeffect of  <strong>Dependent_count </strong>  is <strong> significant</strong>.</li>
        <li>Effect of <strong>Months_on_book </strong> is <strong> not significant </strong>.</li>
        <li>Effect of <strong>Total_Relationship_Count </strong> is <strong> significant.</strong></li>
        <li>Effect of <strong>Months_Inactive_12_mon </strong> is <strong> significant</strong>.</li>
@@ -47,6 +47,7 @@
        <li>Effect of <strong>Total_Amt_Chng_Q4_Q1 </strong> is <strong>significant</strong>.</li>
        <li>Effect of <strong>Total_Trans_Amt</strong>  is <strong> significant</strong>.</li></ul>
      </ol>
+     <p> Note that, a critical value of 0.1 is considered because the financial loss corresponding to encountering with type 2 error is higher. The <strong> p-values </strong> for the features that have not been selected were <strong> 0.16 </strong>and <strong>0.97 </strong>.
 
      
   
